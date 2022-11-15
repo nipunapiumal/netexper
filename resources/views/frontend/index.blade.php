@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="{{ asset('/frontend/css/theme-dark.css') }}">
 
         <!-- Title -->
-        <title>Bonsa - SEO & Marketing Company HTML Template</title>
+        <title>Netexper - Software Development Agency</title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/png" href="{{ asset('/frontend/img/favicon.png') }}">
@@ -267,25 +267,25 @@
             </div>
             <div class="home-shape">
                 <div class="shape1">
-                    <img src="assets/img/shape/1.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/1.png') }}" alt="shape">
                 </div>
                 <div class="shape2">
-                    <img src="assets/img/shape/2.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/2.png') }}" alt="shape">
                 </div>
                 <div class="shape3">
-                    <img src="assets/img/shape/3.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/3.png') }}" alt="shape">
                 </div>
                 <div class="shape4">
-                    <img src="assets/img/shape/4.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/4.png') }}" alt="shape">
                 </div>
                 <div class="shape5">
-                    <img src="assets/img/shape/5.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/5.png') }}" alt="shape">
                 </div>
                 <div class="shape6">
-                    <img src="assets/img/shape/6.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/6.png') }}" alt="shape">
                 </div>
                 <div class="shape7">
-                    <img src="assets/img/shape/3.png" alt="shape">
+                    <img src="{{ asset('frontend/img/shape/3.png') }}" alt="shape">
                 </div>
             </div>
         </div>
