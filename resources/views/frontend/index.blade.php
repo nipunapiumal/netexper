@@ -261,31 +261,31 @@
                         </div>
                     </div>
                     <div class="banner-shape-1">
-                        <img src="{{ asset('frontend/img/shape/home1.png') }}" alt="Banner Shape">
+                        <img src="{{ asset('/frontend/img/shape/home1.png') }}" alt="Banner Shape">
                     </div>
                 </div>
             </div>
             <div class="home-shape">
                 <div class="shape1">
-                    <img src="{{ asset('frontend/img/shape/1.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/1.png') }}" alt="shape">
                 </div>
                 <div class="shape2">
-                    <img src="{{ asset('frontend/img/shape/2.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/2.png') }}" alt="shape">
                 </div>
                 <div class="shape3">
-                    <img src="{{ asset('frontend/img/shape/3.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/3.png') }}" alt="shape">
                 </div>
                 <div class="shape4">
-                    <img src="{{ asset('frontend/img/shape/4.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/4.png') }}" alt="shape">
                 </div>
                 <div class="shape5">
-                    <img src="{{ asset('frontend/img/shape/5.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/5.png') }}" alt="shape">
                 </div>
                 <div class="shape6">
-                    <img src="{{ asset('frontend/img/shape/6.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/6.png') }}" alt="shape">
                 </div>
                 <div class="shape7">
-                    <img src="{{ asset('frontend/img/shape/3.png') }}" alt="shape">
+                    <img src="{{ asset('/frontend/img/shape/3.png') }}" alt="shape">
                 </div>
             </div>
         </div>
@@ -297,27 +297,27 @@
                 <div class="brand-slider owl-carousel owl-theme">
                     <div class="brand-item">
                         <a href="#">
-                            <img src="assets/img/brand/1.png" alt="Brand Images">
+                            <img src="{{ asset('/frontend/img/brand/1.png') }}" alt="Brand Images">
                         </a>
                     </div>
                     <div class="brand-item">
                         <a href="#">
-                            <img src="assets/img/brand/2.png" alt="Brand Images">
+                            <img src="{{ asset('/frontend/img/brand/2.png') }}" alt="Brand Images">
                         </a>
                     </div>
                     <div class="brand-item">
                         <a href="#">
-                            <img src="assets/img/brand/3.png" alt="Brand Images">
+                            <img src="{{ asset('/frontend/img/brand/3.png') }}" alt="Brand Images">
                         </a>
                     </div>
                     <div class="brand-item">
                         <a href="#">
-                            <img src="assets/img/brand/4.png" alt="Brand Images">
+                            <img src="{{ asset('/frontend/img/brand/4.png') }}" alt="Brand Images">
                         </a>
                     </div>
                     <div class="brand-item">
                         <a href="#">
-                            <img src="assets/img/brand/5.png" alt="Brand Images">
+                            <img src="{{ asset('/frontend/img/brand/1.png') }}" alt="Brand Images">
                         </a>
                     </div>
                 </div>
@@ -331,7 +331,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-xxl-6 ps-0">
                         <div class="about-img">
-                            <img src="assets/img/about/1.png" alt="About Images">
+                            <img src="{{ asset('/frontend/img/about/1.png') }}" alt="About Images">
                         </div>
                     </div>
 
@@ -360,7 +360,7 @@
                 </div>
             </div>
             <div class="about-shape">
-                <img src="assets/img/shape/right-side.png" alt="Shape Images">
+                <img src="{{ asset('/frontend/img/shape/right-side.png') }}" alt="Shape Images">
             </div>
         </div>
         <!-- About Area End -->
@@ -380,7 +380,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/1.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/1.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>SEO Optimization</h3>
@@ -396,7 +396,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/2.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/2.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>Social Marketing</h3>
@@ -412,7 +412,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/3.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/3.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>Content Marketing</h3>
@@ -428,7 +428,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/4.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/4.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>Analytical Analysis</h3>
@@ -444,7 +444,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/5.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/5.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>App Development</h3>
@@ -460,7 +460,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.html">
-                                <img src="assets/img/service-icon/6.png" alt="Images">
+                                <img src="{{ asset('/frontend/img/service-icon/6.png') }}" alt="Images">
                             </a>
                             <a href="service-details.html">
                                 <h3>Web Development</h3>
@@ -483,7 +483,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-xxl-7">
                         <div class="faq-img">
-                            <img src="assets/img/faq/1.png" alt="fAQ Images">
+                            <img src="{{ asset('/frontend/img/faq/1.png') }}" alt="fAQ Images">
                         </div>
                     </div>
 
@@ -579,7 +579,7 @@
                     <div class="portfolio-item">
                         <div class="portfolio-img">
                             <a href="portfolio.html">
-                                <img src="assets/img/portfolio/1.jpg" alt="Portfolio Images">
+                                <img src="{{ asset('/frontend/img/portfolio/1.jpg') }}" alt="Portfolio Images">
                             </a>
                             <div class="portfolio-tag">
                                 <a href="#"><span>Marketing</span></a>
@@ -594,7 +594,7 @@
                     <div class="portfolio-item">
                         <div class="portfolio-img">
                             <a href="portfolio.html">
-                                <img src="assets/img/portfolio/2.jpg" alt="Portfolio Images">
+                                <img src="{{ asset('/frontend/img/portfolio/2.jpg') }}" alt="Portfolio Images">
                             </a>
                             <div class="portfolio-tag">
                                 <a href="#"><span>Research</span></a>
@@ -624,7 +624,7 @@
                     <div class="portfolio-item">
                         <div class="portfolio-img">
                             <a href="portfolio.html">
-                                <img src="assets/img/portfolio/5.jpg" alt="Portfolio Images">
+                                <img src="{{ asset('/frontend/img/portfolio/5.jpg') }}" alt="Portfolio Images">
                             </a>
                             <div class="portfolio-tag">
                                 <a href="#"><span>Development</span></a>
@@ -1298,7 +1298,7 @@
 
 
         <!-- Jquery Min JS -->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
         <!-- Bootstrap Bundle Min JS -->
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <!-- Meanmenu JS -->
