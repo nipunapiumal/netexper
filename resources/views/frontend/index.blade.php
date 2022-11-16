@@ -668,7 +668,7 @@
         <!-- Submission Area End -->
 
         <!-- Price Area -->
-        <div class="price-area pt-100 pb-70">
+        {{-- <div class="price-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title text-center">
                     <span>Pricing Table</span>
@@ -811,11 +811,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Price Area End -->
 
         <!-- Member Area -->
-        <div class="member-area pb-70">
+        {{-- <div class="member-area pb-70">
             <div class="container">
                 <div class="section-title text-center">
                     <span>Our Expert Members</span>
@@ -970,7 +970,7 @@
             <div class="member-shape">
                 <img src="assets/img/shape/member-shape-1.png" alt="Shape">
             </div>
-        </div>
+        </div> --}}
         <!-- Member Area End -->
         
         <!-- Counter Area -->
@@ -1034,7 +1034,7 @@
                             <div class="testimonial-item-slider owl-carousel owl-theme">
                                 <div class="testimonial-item">
                                     <div class="testimonial-item-img">
-                                        <img src="assets/img/testimonial/t1.png" alt="Testimonial Images">
+                                        <img src="{{ asset('/frontend/img/testimonial/t1.png') }}" alt="Testimonial Images">
                                     </div>
                                     <h3>John Doe</h3>
                                     <p>
@@ -1045,7 +1045,7 @@
 
                                 <div class="testimonial-item">
                                     <div class="testimonial-item-img">
-                                        <img src="assets/img/testimonial/t2.png" alt="Testimonial Images">
+                                        <img src="{{ asset('/frontend/img/testimonial/t2.png') }}" alt="Testimonial Images">
                                     </div>
                                     <h3>Knot Doe</h3>
                                     <p>
@@ -1056,7 +1056,7 @@
 
                                 <div class="testimonial-item">
                                     <div class="testimonial-item-img">
-                                        <img src="assets/img/testimonial/t3.png" alt="Testimonial Images">
+                                        <img src="{{ asset('/frontend/img/testimonial/t3.png') }}" alt="Testimonial Images">
                                     </div>
                                     <h3>Evanaa</h3>
                                     <p>
@@ -1070,23 +1070,23 @@
 
                     <div class="col-lg-5 col-xxl-6">
                         <div class="testimonial-img">
-                            <img src="assets/img/testimonial/1.png" alt="Testimonial Images">
+                            <img src="{{ asset('/frontend/img/testimonial/1.png') }}" alt="Testimonial Images">
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="shape-left">
-                <img src="assets/img/testimonial/shape-left.png" alt="Images">
+                <img src="{{ asset('/frontend/img/testimonial/shape-left.png') }}" alt="Images">
             </div>
             <div class="shape-right">
-                <img src="assets/img/testimonial/shape-right.png" alt="Images">
+                <img src="{{ asset('/frontend/img/testimonial/shape-right.png') }}" alt="Images">
             </div>
         </div>
         <!-- Testimonial Area End -->
 
         <!-- Blog Area -->
-        <div class="blog-area pb-70">
+        {{-- <div class="blog-area pb-70">
             <div class="container">
                 <div class="section-title text-center">
                     <span>Blogs</span>
@@ -1155,7 +1155,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Blog Area End -->
 
         <!-- Footer Area -->
@@ -1167,7 +1167,7 @@
                             <div class="footer-single">
                                 <div class="footer-single-content">
                                     <a href="index.html">
-                                        <img src="assets/img/footer-logo.png" alt="Logo">
+                                        <img src="{{ asset('/frontend/img/footer-logo.png') }}" alt="Logo">
                                     </a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur convallis arcu, id dapibus nulla tincidunt.</p>
                                 </div>
@@ -1285,8 +1285,8 @@
                         <div class="col-lg-12">
                             <div class="bottom-text text-center">
                                 <p>
-                                    Copyright @<script>document.write(new Date().getFullYear())</script> Bonsa. All Rights Reserved by 
-                                    <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a> 
+                                    Copyright @<script>document.write(new Date().getFullYear())</script> Netexper. All Rights Reserved by 
+                                    <a href="https://netexper.com/" target="_blank">Netexper Pvt Ltd</a> 
                                 </p>
                             </div>
                         </div>
@@ -1300,22 +1300,22 @@
         <!-- Jquery Min JS -->
         <script src="{{ asset('/frontend/js/jquery.min.js') }}"></script>
         <!-- Bootstrap Bundle Min JS -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ asset('/frontend/js/bootstrap.bundle.min.js') }}"></script>
         <!-- Meanmenu JS -->
-        <script src="assets/js/meanmenu.min.js"></script>
+        <script src="{{ asset('/front/js/meanmenu.min.js') }}"></script>
         <!-- Owl Carousel JS -->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="{{ asset('/frontend/js/owl.carousel.min.js') }}"></script>
         <!-- Magnific Popup JS -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="{{ asset('/frontend/js/jquery.magnific-popup.min.js') }}"></script>
         <!-- Wow JS -->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="{{ asset('/frontend/js/wow.min.js') }}"></script>
         <!-- Ajaxchimp Min JS -->
-        <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        <script src="{{ asset('/frontend/js/jquery.ajaxchimp.min.js') }}"></script>
         <!-- Form Validator Min JS -->
-        <script src="assets/js/form-validator.min.js"></script>
+        <script src="{{ asset('/frontend/js/form-validator.min.js') }}"></script>
         <!-- Contact Form JS -->
-        <script src="assets/js/contact-form-script.js"></script>
+        <script src="{{ asset('/frontend/js/contact-form-script.js') }}"></script>
         <!-- Custom JS -->
-        <script src="assets/js/custom.js"></script>
+        <script src="{{ asset('/frontend/js/custom.js') }}"></script>
     </body>
 </html>
